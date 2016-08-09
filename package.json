@@ -1,0 +1,27 @@
+{
+  "name": "playnine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [babelify --presets [ react ] ] -o public/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juening/PlayNine.git"
+  },
+  "author": "Jue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juening/PlayNine/issues"
+  },
+  "homepage": "https://github.com/juening/PlayNine#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "watchify": "^3.7.0"
+  }
+}
